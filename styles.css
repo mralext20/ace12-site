@@ -1,0 +1,20 @@
+/*
+    Document   : styles.css
+    Created on : 2014-02-12 07:29 PM
+    Author     : mralext20
+    Description: the styles of our site
+    Purpose of the stylesheet follows.
+    
+*/
+ .center {
+    text-align:center;
+}
+.red {
+    color:red
+}
+.blue {
+    color:blue
+}
+.large {
+    font-size:20px;
+}
