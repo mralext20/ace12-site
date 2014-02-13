@@ -6,15 +6,8 @@
     Purpose of the stylesheet follows.
     
 */
- .center {
-    text-align:center;
-}
-.red {
-    color:red
-}
-.blue {
-    color:blue
-}
-.large {
-    font-size:20px;
+ .body_text {
+    font-size:12px;
+    
+        
 }
