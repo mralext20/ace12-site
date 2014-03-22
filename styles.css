@@ -11,6 +11,7 @@
 }
 body {
     background-image: url("assets/background.jpg");
+	background-size:80px 80px;
 }
 
 .text_show {
