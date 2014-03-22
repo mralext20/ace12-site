@@ -8,42 +8,38 @@
 
 <url>
   <loc>http://mralext20.github.io/</loc>
-  <lastmod>2014-02-03T20:11:49+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2014-03-22T02:15:01+00:00</lastmod>
 </url>
 <url>
   <loc>http://mralext20.github.io/bio.html</loc>
-  <lastmod>2014-02-03T20:11:49+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2014-03-22T02:15:01+00:00</lastmod>
 </url>
 <url>
   <loc>http://mralext20.github.io/yeti.html</loc>
-  <lastmod>2014-02-03T20:11:49+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2014-03-22T02:15:01+00:00</lastmod>
 </url>
 <url>
   <loc>http://mralext20.github.io/android.html</loc>
-  <lastmod>2014-02-03T20:11:49+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2014-03-22T02:15:01+00:00</lastmod>
+</url>
+<url>
+  <loc>http://mralext20.github.io/terms_and_conditions.html</loc>
+  <lastmod>2014-03-22T02:15:01+00:00</lastmod>
 </url>
 <url>
   <loc>http://mralext20.github.io/index.html</loc>
-  <lastmod>2014-02-03T20:11:49+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2014-03-22T02:15:01+00:00</lastmod>
 </url>
 <url>
   <loc>http://mralext20.github.io/alex.html</loc>
-  <lastmod>2014-02-03T20:11:49+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2014-03-22T02:15:01+00:00</lastmod>
 </url>
 <url>
   <loc>http://mralext20.github.io/jordan.html</loc>
-  <lastmod>2014-02-03T20:11:49+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2014-03-22T02:15:01+00:00</lastmod>
 </url>
 <url>
   <loc>http://mralext20.github.io/river.html</loc>
-  <lastmod>2014-02-03T20:11:49+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2014-03-22T02:15:01+00:00</lastmod>
 </url>
 </urlset>
