@@ -11,32 +11,26 @@
 }
 body {
     background-image: url("assets/background.jpg");
-	background-size:80px 80px;
+    background-size:80px 80px;
 }
-
 table {
-	width:100%;
+    width:100%;
 }
-
 .text_show {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     text-indent:50px
 }
-
 .hide {
-    color: rgba(0,0,0,0);
-    background-color: rgba(0,0,0,0);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
-
 .align_left {
     text-align:left;
 }
-
 .align_right {
     text-align:right;
 }
-
 .bottom {
-	position:absolute;
-	bottom:0px;
+    position:absolute;
+    bottom:0px;
 }
