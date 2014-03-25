@@ -34,3 +34,7 @@ table {
     position:absolute;
     bottom:0px;
 }
+html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
