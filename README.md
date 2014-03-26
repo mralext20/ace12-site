@@ -1,4 +1,4 @@
 mrlaext20.github.io
 =================
 
-creating a websit with @spongrock4
+creating a website with @spongrock4
