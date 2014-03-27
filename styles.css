@@ -2,8 +2,7 @@
     Document   : styles.css
     Created on : 2014-02-12 07:29 PM
     Author     : mralext20
-    Description: the styles of our site
-    Purpose of the stylesheet follows.
+    Description: its a style sheet, ok?
     
 */
  .body_text {
@@ -13,12 +12,12 @@ body {
     background-image: url("assets/background.jpg");
     background-size:80px 80px;
 }
-table {
+.widescreen {
     width:100%;
 }
 .text_show {
-    background-color: rgba(255, 255, 255, 0.5);
-    text-indent:50px
+    background-color:#0969A2;
+    text-indent:50px;
 }
 .hide {
     color: rgba(0, 0, 0, 0);
@@ -37,4 +36,25 @@ table {
 html {
     overflow-y: hidden;
     overflow-x: hidden;
+}
+.top {
+    position:absolute;
+    top:0px;
+}
+.table_boarder {
+    border-style:solid;
+    border-color:#06266f #06266f;
+}
+a {
+    color:#ff2c00;
+}
+.fiddycent {
+    width:50%;
+    text-align:center;
+}
+.no_margin {
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    margin-left:0px;
 }
