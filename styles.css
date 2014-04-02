@@ -48,7 +48,7 @@ html {
 a {
     color:#ff2c00;
 }
-.fiddycent {
+.half_screen {
     width:50%;
     text-align:center;
 }
@@ -57,4 +57,11 @@ a {
     margin-bottom:0px;
     margin-right:0px;
     margin-left:0px;
+}
+.table_spaceing {
+    position:absolute;
+    top:215px;
+}
+.text_center {
+    text-align:center;
 }
