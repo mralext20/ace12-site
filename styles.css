@@ -16,7 +16,7 @@ body {
     width:100%;
 }
 .text_show {
-    background-color:#0969A2;
+    color:#917A5A;
     text-indent:50px;
 }
 .hide {
@@ -33,11 +33,11 @@ body {
     position:fixed;
     bottom:0%;
 }
-html {
+/*html {
     overflow-y: hidden;
     overflow-x: hidden;
-}
-.top {
+}*/
+ .top {
     position:absolute;
     top:0px;
 }
@@ -64,4 +64,19 @@ a {
 }
 .text_center {
     text-align:center;
+}
+.scrollable {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    overflow-y: hidden;
+}
+.table_boarder_v2 {
+    border-style:solid;
+    border-color:;
+}
+.bottom_text{
+vertical-align:text-bottom;
 }

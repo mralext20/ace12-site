@@ -24,19 +24,16 @@
     <title>ACE12</title>
 </head>
 
-<body class="no_margin" oncontextmenu="return false" style="margin-bottom: 50px;">
+<body class="no_margin" style="margin-bottom: 50px;">
 
 
-    <table border="1" bgcolor="#221e11" class="widescreen table_boarder user-scalable=no">
+    <table border="1" bgcolor="#040015" class="widescreen table_boarder">
         <tr>
             <td width="75%" bgcolor="#fff">
-                <center>
-                    <img src="assets/ace12.jpg" alt="Click Links" height="150" width="325">
-                </center>
+                <img src="assets/ace12.jpg" style=" display: block;margin-left: auto;margin-right: auto;" alt="Click Links" height="150" width="325">
             </td>
-
             <td>
-                <table class="widescreen no_margin" border="1" cellpadding="10" height="159px" width="332px">
+                <table class="widescreen no_margin" border="0" style="background: linear-gradient(#01b5ea ,#000851);" cellpadding="10" height="159px" width="332px">
                     <tr>
                         <td>
                             <!-- twitter button -->
@@ -55,7 +52,23 @@
                         </td>
                     </tr>
                     <tr>
-                        <td bgcolor="#222111">
+                        <td>
+                            <div id="fb-root"></div>
+                            <script>
+                                (function(d, s, id) {
+                                    var js, fjs = d.getElementsByTagName(s)[0];
+                                    if(d.getElementById(id)) return;
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }(document, 'script', 'facebook-jssdk'));
+                            </script>
+                            <div class="fb-like" data-href="https://www.facebook.com/pages/Ace-12/307443606070772" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <!-- +1 button-->
                             <div class="g-plusone text_show" data-annotation="inline" data-width="300" data-href="https://plus.google.com/107747753008946199043"></div>
                             <script type="text/javascript">
@@ -68,19 +81,13 @@
                                     s.parentNode.insertBefore(po, s);
                                 })();
                             </script>
-                            <br>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            FACEBOOK BUTTON GOES HERE
                         </td>
                     </tr>
                 </table>
             </td>
         </tr>
     </table>
-    <table border="1" bgcolor="#221e11" class="widescreen table_boarder">
+    <table border="1" bgcolor="#001340" style="background: linear-gradient(#06266f, #001340);" class="widescreen table_boarder">
         <tr>
             <td width="20%" style="text-align:center;">
                 <a href="index.html">Home</a>
@@ -92,27 +99,42 @@
                 <a href="gallery.html">Gallery</a>
             </td>
             <td width="20%" style="text-align:center;">
-                <a href="bio.html">bios</a>
+                <a href="info.html">Info</a>
             </td>
             <td width="20%" style="text-align:center;">
-                <a href="bio.html">bios</a>
+                <a href="bio.html">Bios</a>
             </td>
         </tr>
     </table>
-    <table border="1" class="table_spaceing table_boarder" style="position:relative;
-    left:85%; top:20px;" bgcolor="#221e11">
+    <span style=" display: block;margin-left: auto;margin-right: auto;">
+        <table class="half_screen table_boarder table_spaceing" border="1" bgcolor="#221e11" style="left: 25%;margin:auto;">
+            <tr>
+                <td>
+                    <font color="#ffffff">Whats new</font>
+                </td>
+            </tr>
+            <td>
+                <font color="#ffffff" size="6"><div align="center">Videos</div></font>
+                <br>
+            </td>
+        </table>
+    <table border="1" class="table_spaceing table_boarder" style="left:85%; right:20px; width: 10.4%;" bgcolor=#221e11>
         <tr>
             <td>
-                <font color="#ffffff">Popular</font>
+                <font color="#ffffff"><center>Popular</center></font>
             </td>
         </tr>
         <tr>
-            <script>
-                
-            </script>
-        </tr>
+            <td>
+                <div class="scrollable">
+                    <span class="text_show">
+                   
+                     </span>
+    </div>
+    </td>
+    </tr>
     </table>
-    <table class="table_spaceing text_center table_boarder" border="1" style="position:absolute;
+    <table class="table_spaceing text_center table_boarder table_spaceing" border="1" style="position:absolute;
     left:40px;" bgcolor="#221e11">
         <tr>
             <td>
@@ -123,31 +145,20 @@
             <font color="#ffffff">Disqus goes here... maybe</font>
         </td>
     </table>
-    <center>
-        <table class="half_screen table_boarder" border="1" bgcolor="#221e11" style="margin-top: -10px;">
-            <tr>
-                <td>
-                    <font color="#ffffff">Whats new</font>
-                </td>
-            </tr>
-            <td>
-                <font color="#ffffff" size="6"><div align="left">Videos</div></font>
-                <br>
-            </td>
-        </table>
-    </center>
+    </span>
+
 </body>
 
 <!--[if lt msie]>
-<p>You are using an <strong>outdated</strong> browser. Please <a href="www.google.com/chrome/">try Google Chrome</a> to improve your experience.</p>
+<p class="text_show">You are using an <strong>outdated</strong> browser. Please <a href="www.google.com/chrome/">try Google Chrome</a> to improve your experience.</p>
 <![endif]-->
 <footer>
-    <table class="bottom widescreen" bgcolor="#06266f">
+    <table class="bottom widescreen" border="0" style="background:linear-gradient(rgba(0,0,0,0) ,#000000);">
         <tr>
-            <td class="align_left" style="padding:0px;">
+            <td class="align_left" style="padding:0px;vertical-align:bottom;height:300px;padding-bottom:20px;">
                 <A HREF="mailto:alexterry43@gmail.com">Click Here To email the site manager</A>
             </td>
-            <td class="align_right" style="padding:0px;">
+            <td class="align_right" style="padding:0px;vertical-align:bottom;height:300px;padding-bottom:20px;">
                 <a href="terms_and_conditions.html">disclaimers</a>
             </td>
         </tr>
