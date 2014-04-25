@@ -80,3 +80,7 @@ a {
 .bottom_text{
 vertical-align:text-bottom;
 }
+.table_boarder_v3 {
+    border-style:solid;
+    border-color:#221e11 #221e11;
+}
