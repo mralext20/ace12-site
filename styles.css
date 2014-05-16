@@ -5,7 +5,10 @@
     Description: its a style sheet, ok?
     
 */
- .body_text {
+ root {
+    display: block;
+}
+.body_text {
     font-size:12px;
 }
 body {
@@ -77,14 +80,14 @@ a {
     border-style:solid;
     border-color:#000 #000;
 }
-.bottom_text{
-vertical-align:text-bottom;
+.bottom_text {
+    vertical-align:text-bottom;
 }
 .table_boarder_v3 {
     border-style:solid;
     border-color:#221e11 #221e11;
 }
-.row_1{
+.row_1 {
     position:absolute;
     top:50px;
     right:100px;
