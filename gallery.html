@@ -23,6 +23,7 @@
     <!--gallery code-->
     <script>
         var currphoto;
+        var timer;
         currphoto = '1';
 
         function next() {
@@ -140,14 +141,15 @@
             </tr>
             <td style="background: linear-gradient(#221e11 ,#000)">
                 <div align="center"><div id="gallery"><img width=790px src="screenshots/1.jpg"></div></div>
-                <br><button onclick="next()">
-                    next
-                    </button><div style="color:#fff" id="num">
+                <br><div style="color:#fff" id="num">
                     Photo Number 1
-                    </div>
-                    <button onclick="last()">
-                        last
+                    </div><button onclick="next()">
+                    next
                     </button>
+                    
+                <button onclick="timer = setInterval(function(){next()}, 1000);">play</button>
+                <button onclick="clearInterval(timer);">pause</button>
+                <button onclick="last()">last</button>
     </td>
     </table>
     </span>
@@ -192,6 +194,7 @@
             (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
         }());
     </script>
+    <!--load all the images before hand. works in all browsers... i think.-->
     <img src="screenshots/1.jpg" height=0px width=0px>
     <img src="screenshots/2.jpg" height=0px width=0px>
     <img src="screenshots/3.jpg" height=0px width=0px>
