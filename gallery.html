@@ -20,6 +20,31 @@
     </script>
     <!--resize everything to fit most screensizes-->
     <meta name=viewport content="width=device-width, initial-scale=1">
+    <!--gallery code-->
+    <script>
+        var currphoto;
+        currphoto = '1';
+
+        function next() {
+            if(currphoto == 33) {
+                currphoto = 1
+            } else {
+                currphoto++
+            }
+            document.getElementById("gallery").innerHTML = '<img width=790px src="screenshots/' + currphoto + '.jpg">';
+            document.getElementById("num").innerHTML = 'photo number' + " " + currphoto
+        }
+
+        function last() {
+            if(currphoto == 1) {
+                currphoto = 33
+            } else {
+                currphoto--
+            }
+            document.getElementById("gallery").innerHTML = '<img width=790px src="screenshots/' + currphoto + '.jpg">'
+            document.getElementById("num").innerHTML = 'photo number' + " " + currphoto;
+        }
+    </script>
     <title>Gallery - ACE12</title>
 </head>
 
@@ -114,12 +139,19 @@
                 </td>
             </tr>
             <td style="background: linear-gradient(#221e11 ,#000)">
-                <font color="#ffffff" size="6"><div align="center">eventuly, i'll find a good gallery to go here.</div></font>
-                <br><span class="text_show denk_one"></span>
+                <div align="center"><div id="gallery"><img width=790px src="screenshots/1.jpg"></div></div>
+                <br><button onclick="next()">
+                    next
+                    </button><div style="color:#fff" id="num">
+                    Photo Number 1
+                    </div>
+                    <button onclick="last()">
+                        last
+                    </button>
     </td>
     </table>
     </span>
-    
+
     <table class="table_spaceing text_center table_boarder_v2" border="1" style="position:absolute;
     left:40px;width:20%;" bgcolor=#221e11>
         <tr>
@@ -128,7 +160,8 @@
             </td>
         </tr>
         <td style="background: linear-gradient(#221e11 ,#000)">
-            <div id="disqus_thread"> <font color="#ffffff">Ace12</font></div>
+            <div id="disqus_thread"> <font color="#ffffff">Ace12</font>
+            </div>
             <script type="text/javascript">
                 /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
                 var disqus_shortname = 'ace12'; // required: replace example with your forum shortname
@@ -146,7 +179,7 @@
             <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
         </td>
     </table>
-        
+
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'ace12'; // required: replace example with your forum shortname
