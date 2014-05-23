@@ -141,13 +141,11 @@
             </tr>
             <td style="background: linear-gradient(#221e11 ,#000)">
                 <div align="center"><div id="gallery"><img width=790px src="screenshots/1.jpg"></div></div>
-                <br><div style="color:#fff" id="num">
-                    Photo Number 1
-                    </div><button onclick="next()">
-                    next
-                    </button>
-                    
+                <br>
+                
+                <button onclick="next()">next</button>
                 <button onclick="timer = setInterval(function(){next()}, 1000);">play</button>
+                <span style="color:#fff" id="num">Photo Number 1</span>
                 <button onclick="clearInterval(timer);">pause</button>
                 <button onclick="last()">last</button>
     </td>
