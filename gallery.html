@@ -143,11 +143,11 @@
                 <div align="center"><div id="gallery"><img width=790px src="screenshots/1.jpg"></div></div>
                 <br>
                 
-                <button onclick="next()">next</button>
-                <button onclick="timer = setInterval(function(){next()}, 1000);">play</button>
+                <button onclick="next();clearInterval(timer)">next</button>
+                <button onclick="clearInterval(timer);timer = setInterval(function(){next()}, 1000);">play</button>
                 <span style="color:#fff" id="num">Photo Number 1</span>
                 <button onclick="clearInterval(timer);">pause</button>
-                <button onclick="last()">last</button>
+                <button onclick="last();clearInterval(timer)">last</button>
     </td>
     </table>
     </span>
