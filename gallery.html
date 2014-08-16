@@ -21,30 +21,7 @@
     <!--resize everything to fit most screensizes-->
     <meta name=viewport content="width=device-width, initial-scale=1">
     <!--gallery code-->
-    <script>
-        var currphoto;
-        var timer;
-        currphoto = 1;
-
-        function next() {
-            if(currphoto == 33) {
-                currphoto = 1
-            } else {
-                currphoto++
-            }
-            document.getElementById("gallery").innerHTML = '<img width=790px src="screenshots/' + currphoto + '.jpg">';
-            document.getElementById("num").innerHTML = 'photo number' + " " + currphoto
-        }
-
-        function last() {
-            if(currphoto == 1) {
-                currphoto = 33
-            } else {
-                currphoto--
-            }
-            document.getElementById("gallery").innerHTML = '<img width=790px src="screenshots/' + currphoto + '.jpg">'
-            document.getElementById("num").innerHTML = 'photo number' + " " + currphoto;
-        }
+    <script src="photos.js/photo.js">
     </script>
     <title>Gallery - ACE12</title>
 </head>
@@ -144,7 +121,8 @@
                 <br>
                 
                 <button onclick="next();clearInterval(timer)">next</button>
-                <button onclick="clearInterval(timer);timer = setInterval(function(){next()}, 1000);">play</button>
+                <button onclick="clearInterval(timer);timer = setInterval(function(){next()}, 5000);
+                                 ">play</button>
                 <span style="color:#fff" id="num">Photo Number 1</span>
                 <button onclick="clearInterval(timer);">pause</button>
                 <button onclick="last();clearInterval(timer)">last</button>

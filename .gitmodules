@@ -1,0 +1,3 @@
+[submodule "photos.js"]
+	path = photos.js
+	url = git@github.com:mralext20/photos.js.git
