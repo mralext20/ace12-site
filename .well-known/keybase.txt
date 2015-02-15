@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/mralext20
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mralext20.github.io
+  * I am mralext20 (https://keybase.io/mralext20) on keybase.
+  * I have a public key with fingerprint 5015 EE20 9AFB DA4B 721D  DDD0 C43A 3BBE 29FD 27B6
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "5015ee209afbda4b721dddd0c43a3bbe29fd27b6",
+            "host": "keybase.io",
+            "key_id": "c43a3bbe29fd27b6",
+            "kid": "01019ea3933b7e6c4f160b0ace96b06a210d3b7a69e95ad668ff8c5404ce84a4cead0a",
+            "uid": "0af1ca12149f7fa81dfac06437cf7900",
+            "username": "mralext20"
+        },
+        "service": {
+            "hostname": "mralext20.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1423994069,
+    "expire_in": 157680000,
+    "prev": "ed78d86353e65a3fcf66cfc1b6e145cfa242af58626cd3f58cf2c685d1b64d40",
+    "seqno": 26,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.4
+Comment: https://keybase.io/crypto
+
+yMIeAnicbZJrSBVBFMevpYaG1C0jIfLDElRkMrOP2d2bJhFkRUgPJTBhmZ2d0cXr
+3tu9ezW1GxRJQSmWQe+wMAzLMsrCAlOxFxJFJUVFRGgvCCUQC4uazfoSnQ/zOOd/
+fjPncPrTpvpSEwpy7L6bXdfOJgz0ro35Ct8EB2sFM2RVC4FaoZz+3pjtlNJIOGI7
+rhAQFAAVSkWgY2ZaWDZVEVrcAJElLJkmFXVmiaqJhCyhLBT1MjjGxFGabYe4j18M
+2+Le/+jLfwcABFCnWNIlyVQpIjKDCJgAE6ojEyAsQmDxCEY61RVsIaQxphFFBjKh
+moz5ii2AOS42icMMEgxFKOtMZViDFsMEIFlSCVN1ADxhlEYcXEG5uiKCg3SbKwIh
+niVwd6VNqNcDr5R/JdmltlsWMyfrCkdCboiEglxQ5rrhaMADuNVhL6OKmsYflmHa
+jsX7yTMqaSRqhxwhALmSuLYHh7Io6boMkJ4l0G1hO0IN21MoKtIAN+8dWsmR1FI1
+S0OSIlGkYIkRhhBhBJqIQlkhDIuyiJmiIRERS+IHwkSCNMXiCtmSvaqjdKsTEgIi
+4v/EpZwZtUsd7MYiVIj39ZQk+hJSfclJU7yR8KWmzPw7KPM6pv3c8QmeWLXCKsh6
+MMLeju1tfPF97ZItTWPh0fvzs/dkZG7cv//1gn52uL6xpfDJvktjTcE7m74Ze0b3
+ZqT7O1Zm+JNA8cIzh7Y/uFj7oxh16jk1d51gfLBz0QVjcXLzBliS8nS9NJfcWdf4
+3v9h+ru8pPyhGynml8/v+gNtu4yyW/bH+vpYg3E+LfHUcPOxNUeGb1+fXVQ1Y2K1
+Of68udtvd6mvqh7NmRhobc4veJ2bt7Mt6WXLmXPtRdVLn33tMuZmlhctq0j337jy
+4vblre9zNt+9l3Jy48OrPTWDs2petR6d2Z18bQT2Vu0+0HK8fWj548z4uPPmdF0u
+a1icV3dwNA1lDAz/AjTLM/s=
+=CSBc
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mralext20
+
+==================================================================
+
