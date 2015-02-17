@@ -1,1 +1,1 @@
-pay no attention to the man behind the curtan.
+pay no attention to the man behind the curtain.
