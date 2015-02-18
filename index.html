@@ -1,7 +1,6 @@
 <html>
 <head>
   <!--imports-->
-  <!--imports-->
   <script src="bower_components/platform/platform.js"></script>
   <!--polyfill-->
   <link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
@@ -21,7 +20,17 @@
 
   <!--META tag for browser size on mobile-->
 
+  <!--META tag for browser size on mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <style media="screen">
+  /*coloring for bar*/
+  body /deep/ core-toolbar {
+        background-color:#bb0900;
+  }
+    body core-toolbar {
+          background-color:#6f0600;
+    }
+  </style>
 </head>
 <body>
   <core-scaffold>
@@ -29,7 +38,7 @@
       <core-toolbar>
         <img height="64px" src="assets/ace12.gif">
       </core-toolbar>
-      <core-menu>
+      <core-menu theme="core-light-theme">
         <core-item icon="home" label="Home">
             <a onclick="loadHome()"></a>
         </core-item>
